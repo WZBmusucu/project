@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.summer.interceptor.dao.UserDao">
+    <select id="getUserByNameAngPasw" parameterType="String" resultType="User">
+        SELECT * FROM user WHERE username = #{username} AND password = #{password}
+    </select>
+
+    <select id="getAllUsers" resultType="User">
+        SELECT * FROM user;
+    </select>
+</mapper>

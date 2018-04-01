@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="LoginInterceptor:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="LoginInterceptor.war">
+      <element id="artifact" artifact-name="LoginInterceptor:war exploded" />
+    </root>
+  </artifact>
+</component>
